@@ -59,7 +59,6 @@
     (e/server
      (kindly-html value meta-data)))))
 
-
 (e/defn Main [ring-request]
   (e/client
    (binding [dom/node js/document.body
