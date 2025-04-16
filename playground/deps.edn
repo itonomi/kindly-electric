@@ -6,7 +6,8 @@
            ring/ring                      {:mvn/version "1.11.0"} ; to serve the app
            ring-basic-authentication/ring-basic-authentication {:mvn/version "1.2.0"} ; for demo
            com.itonomi/kindly-electric {:local/root "../"}
-           }
+           org.scicloj/noj {:mvn/version "2-beta15"}
+           cider/cider-nrepl {:mvn/version "0.54.0"}}
  :paths   ["src" "resources"]
  :aliases {:dev {:extra-paths ["src-dev"]
                  :extra-deps  {thheller/shadow-cljs {:mvn/version "2.26.2"}}}

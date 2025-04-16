@@ -20,3 +20,7 @@ Made by Daniel Slutsky and Olav Fosse
 
 ## Todo
 - [x] Package as a library
+- [ ] Change the API to take values with metadata
+  (kindly/Render ^:kind/md ["# Check out this markdown header!"])
+- [ ] Make tables look like in the Noj/Kindly documentation
+  - Missing CSS?
