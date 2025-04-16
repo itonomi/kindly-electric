@@ -5,7 +5,7 @@
            ch.qos.logback/logback-classic {:mvn/version "1.4.14"}
            ring/ring                      {:mvn/version "1.11.0"} ; to serve the app
            ring-basic-authentication/ring-basic-authentication {:mvn/version "1.2.0"} ; for demo
-           }
+           org.scicloj/kindly-render {:mvn/version "0.1.5-alpha"}}
  :paths   ["src" "resources"]
  :aliases {:dev {:extra-paths ["src-dev"]
                  :extra-deps  {thheller/shadow-cljs {:mvn/version "2.26.2"}}}
