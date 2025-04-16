@@ -13,10 +13,10 @@ Built on https://github.com/scicloj/kindly-render
 
 ```
 com.itonomi/kindly-electric {:git/url "https://github.com/olavfosse-itonomi/kindly-electric"
-                             :git/sha "81c569d8a7e47027e42b73a01e2c2d089aaac04a"}
+                             :git/sha "74d6cda52a949c47485c3f4dc04a65cb9cec9263"}
 ```
 
 Made by Daniel Slutsky and Olav Fosse
 
 ## Todo
-- [ ] Package as a library
+- [x] Package as a library
