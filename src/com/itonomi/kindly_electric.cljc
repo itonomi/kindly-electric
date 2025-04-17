@@ -30,6 +30,8 @@
            (with-meta value meta)
            value)})))))
 
+
+;; api v1
 (e/defn Render
   ;; Even though Electric does not send metadata over the wire, there
   ;; is nothing stopping us from doing that at the Render boundary.
@@ -43,4 +45,16 @@
      (set-inner-html-and-evaluate-scripts
       dom/node
       (e/server
-        (kindly-html value meta))))))
+       (kindly-html value meta))))))
+
+;; api v2
+(e/defn Kindly2 "v2 handles values with metadata natively!"
+  ([value]
+   (let [m (meta value)
+         #_#_value (with-meta {})]
+     (e/client
+      (dom/div 
+       (set-inner-html-and-evaluate-scripts
+        dom/node
+        (e/server
+         (kindly-html value m))))))))
