@@ -25,3 +25,5 @@ Made by Daniel Slutsky and Olav Fosse
 - [ ] Add shorthands -- or maybe not
 - [ ] Make tables look like in the Noj/Kindly documentation
   - Missing CSS?
+- [ ] playground: input field to test rendering expression interactively
+  - [ ] fail gracefully
